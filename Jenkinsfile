@@ -3,8 +3,8 @@ pipeline{
     stages{
         stage('Build'){
             steps{
-                sh 'python open_file.py'
-                // echo 'Building...'
+                // sh 'python open_file.py'
+                echo 'Building...'
             }
         }
         stage('Test'){
