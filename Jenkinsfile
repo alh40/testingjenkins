@@ -4,7 +4,7 @@ pipeline{
         stage('Build'){
             steps{
                 // "C:\Users\gengar\AppData\Local\Programs\python.exe" "Path where your Python script is stored\script a.py"
-                bat label: '', script: 'python open_file.py' 
+                script: 'python open_file.py' 
                 // echo 'Building...'
             }
         }
