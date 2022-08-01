@@ -3,7 +3,8 @@ pipeline{
     stages{
         stage('Build'){
             steps{
-                bat 'py open_file.py'
+                // "C:\Users\gengar\AppData\Local\Programs\python.exe" "Path where your Python script is stored\script a.py"
+                bat 'C:\Users\gengar\AppData\Local\Programs\Python\Python310\python.exe open_file.py'
                 // echo 'Building...'
             }
         }
