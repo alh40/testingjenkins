@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('Build'){
             steps{
-                sh 'python3 open_file.py'
+                sh 'py open_file.py'
                 // echo 'Building...'
             }
         }
