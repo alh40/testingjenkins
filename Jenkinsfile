@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('Build'){
             steps{
-                sh 'py open_file.py'
+                bat 'py open_file.py'
                 // echo 'Building...'
             }
         }
